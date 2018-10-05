@@ -77,22 +77,5 @@ client.on('message', message => {
       });
 
   
-client.on('message', message => {
-    if(message.content.startsWith(prefix+'help')) {
-   const embed = new Discord.RichEmbed()
-.setColor('RANDOM')
-        .setDescription(`**
-General's Commands. 
-        BrodCast Bot 
-#bc لنشر رساله جماعيه للجميع :no_entry:
-});
-
-client.on('message', message => {
-    if(message.content.startsWith('$help')) {
-        
-        message.channel.send('**[ لقد تم أرسال جميع أوامر البوت في الخاص :envelope_with_arrow: | Check your DM. ]**')
-    }
-});
-  
 client.login(process.env.BOT_TOKEN);
   
