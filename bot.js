@@ -283,6 +283,7 @@ client.on('message', message => {
 General's Commands. 
 ${prefix}members - معلومات عن الاعضاء التى بسيرفرك :scroll:
 ${prefix}server - معلومات عن السيرفر :smile:
+${prefix}clear - يمسح الشات بس حط عدد  :eyeglasses: 
 ${prefix}id - معلومات عنك  :scroll:
 ${prefix}ban - يعطى بان بس حط سبب :flashlight:
 ${prefix}kick - يعطى كيك مع السبب :frame_photo:
