@@ -358,7 +358,7 @@ client.on('message', message => {
 
 
  client.on('message' , message => {
-    if (message.content === '.inv') {
+    if (message.content === '!inv') {
              let embed = new Discord.RichEmbed()
 
            .setThumbnail(message.author.avatarURL)
