@@ -6,7 +6,7 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 client.on('ready', () => {
-    client.user.setActivity("#bc | 3wgaN Bot",{type: 'WATCHING'})
+    client.user.setActivity("!help | تــوفـيـق بوت ",{type: 'WATCHING'})
 
 });
 
